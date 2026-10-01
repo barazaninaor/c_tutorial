@@ -1,0 +1,70 @@
+/* Home Container Main Layout */
+.home-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 20px;
+  background-color: #121212;
+  min-height: 100vh;
+  color: #ffffff;
+  direction: ltr;
+  text-align: left;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Main Application Title */
+.home-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+/* Section Block Separator */
+.section-block {
+  margin-bottom: 40px;
+}
+
+/* Category Title Styling */
+.category-title {
+  font-size: 1.5rem;
+  color: #58a6ff;
+  border-bottom: 2px solid #333333;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+/* Exercises List Layout */
+.exercises-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+/* Wrapper for Each Exercise Card */
+.exercise-wrapper {
+  width: 100%;
+}
+
+/* Mobile Responsiveness Adjustments */
+@media screen and (max-width: 480px) {
+  .home-container {
+    padding: 16px 12px; /* Smaller padding for mobile screens */
+  }
+
+  .home-title {
+    font-size: 1.6rem; /* Scale down main title for small displays */
+    margin-bottom: 24px;
+  }
+
+  .section-block {
+    margin-bottom: 24px;
+  }
+
+  .category-title {
+    font-size: 1.25rem; /* Scale down category headings */
+    margin-bottom: 14px;
+  }
+}

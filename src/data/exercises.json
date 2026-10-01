@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "category": "Introduction",
+    "question": "Exercise 1: Add\n\nImplement a function that is given 2 integers and returns the sum of the numbers.",
+    "answer": "int Add(int num1, int num2)\n{\n    int sum = 0;\n    sum = num1 + num2;\n    return sum;\n}"
+  },
+  {
+    "id": 2,
+    "category": "Introduction",
+    "question": "Exercise 2: BoxVolume\n\nImplement a function that is given 3 positive integers representing the length, width, and height of a box, and returns its volume.\nExample: For a box of 8cm length, 5cm width, and 12cm height, the volume is 480.",
+    "answer": "int BoxVolume(int length, int width, int height)\n{\n    int sum = 0;\n    sum = length * width * height;\n    return sum;\n}"
+  }
+]
